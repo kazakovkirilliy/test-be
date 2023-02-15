@@ -40,7 +40,7 @@
     "@nestjs/platform-express": "^8.4.4",
     "@nestjs/platform-socket.io": "^8.4.4",
     "@nestjs/websockets": "^8.4.4",
-    "@prisma/client": "^3.13.0",
+    "@prisma/client": "^4.10.1",
     "apollo-server-express": "^3.6.7",
     "argon2": "^0.28.5",
     "cache-manager": "^3.6.1",
