@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "npx prisma generate && nest build",
+    "build": "sudo apt install ./libssl1.1_1.1.1l-1ubuntu1_amd64.deb && npx prisma generate && nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "NODE_ENV=dev nest start --watch PORT=4000",
