@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build",
+    "build": "npx prisma generate && nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "NODE_ENV=dev nest start --watch PORT=4000",
